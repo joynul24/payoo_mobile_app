@@ -7,6 +7,7 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
     const balance = getDivValueToNumber('balance');
     if(isNaN(inputAmount)) {
         alert("Your amount input is incorrect!")
+        return;
     }
 
     if (pinNumber === 2121) {
