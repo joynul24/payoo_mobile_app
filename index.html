@@ -13,12 +13,37 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/44c614560c.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body class="font-outfit">
     <main class="flex mt-8 p-4 lg:p-0">
         <div class="mockup-phone border-primary">
             <div class="camera"></div>
             <div class="display">
-              <div class="artboard artboard-demo phone-3">Hi.</div>
+              <div class="artboard artboard-demo phone-3">
+
+
+                <h2 class="text-3xl font-bold mb-10">Get Payoo</h2>
+
+                <!-- Login Form Section -->
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <form class="card-body">
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="font-medium label-text">Mobile Number</span>
+                        </label>
+                        <input type="number" placeholder="Enter your number" autocomplete="off" class="input input-bordered" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="font-medium label-text">4 Digit Pin</span>
+                        </label>
+                        <input autocomplete="off" type="password" placeholder="Enter 4 Digit Pin" class="input input-bordered" required />
+                      </div>
+                      <div class="form-control mt-6">
+                        <button id="btn-login" class="btn btn-primary">Login</button>
+                      </div>
+                    </form>
+                  </div>
+              </div>
             </div>
           </div>
     </main>
