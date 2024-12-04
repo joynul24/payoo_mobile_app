@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Payoo Mobile Bank</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
     <link rel="stylesheet" href="styles/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
@@ -12,8 +12,8 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/44c614560c.js" crossorigin="anonymous"></script>
-  </head>
-  <body class="font-outfit">
+</head>
+<body class="font-outfit">
     <main class="flex mt-8 p-4 lg:p-0">
         <div class="mockup-phone border-primary">
             <div class="camera"></div>
@@ -28,18 +28,18 @@
                     <form class="card-body">
                       <div class="form-control">
                         <label class="label">
-                          <span class="font-medium label-text">Mobile Number</span>
+                          <span class="font-medium label-text">Ammount</span>
                         </label>
-                        <input id="input-mobile-number" type="text" placeholder="Enter your number" autocomplete="off" class="input input-bordered" required />
+                        <input id="input-add-money" type="text" placeholder="Your ammount" autocomplete="off" class="input input-bordered" required />
                       </div>
                       <div class="form-control">
                         <label class="label">
-                          <span class="font-medium label-text">4 Digit Pin</span>
+                          <span class="font-medium label-text">Pin Number</span>
                         </label>
-                        <input id="input-pin-number" autocomplete="off" type="password" placeholder="Enter 4 Digit Pin" class="input input-bordered" required />
+                        <input id="input-cash-out" autocomplete="off" type="password" placeholder="Enter 4 Digit Pin" class="input input-bordered" required />
                       </div>
                       <div class="form-control mt-6">
-                        <button id="btn-login" class="btn btn-primary">Login</button>
+                        <button id="btn-add-money" class="btn btn-primary">Add Money</button>
                       </div>
                     </form>
                   </div>
@@ -48,9 +48,7 @@
           </div>
     </main>
 
-
-    <!-- script file here -->
-     <script src="js/login.js"></script>
-     <script src="js/utility.js"></script>
-  </body>
+    <!-- js file -->
+     <script src="js/add_momey.js"></script>
+</body>
 </html>
