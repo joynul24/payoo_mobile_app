@@ -7,7 +7,7 @@ document.getElementById('btn-login').addEventListener('click', function (event) 
     const inputPin = getConvertInputValue('input-pin-number');
 
     if (inputNumber.length <= 11 && inputPin === 2121) {
-        window.location = '/home.html';
+        window.location.href = "/home.html"
     }
     else {
         alert("Field login! Please full fill valid info")
