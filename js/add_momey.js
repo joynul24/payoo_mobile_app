@@ -5,7 +5,7 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
     const pinNumber = getConvertInputValue('input-cash-out');
 
     const balance = getDivValueToNumber('balance');
-    if(isNaN(inputAmount)) {
+    if (isNaN(inputAmount)) {
         alert("Your amount input is incorrect!")
         return;
     }
@@ -17,4 +17,8 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
     else {
         alert("Wrong pin number! Please try again!")
     }
+    const amountInput = document.getElementById('input-add-money');
+    amountInput.value = '';
+    const inputPin = document.getElementById('input-cash-out');
+    inputPin.value = '';
 });
